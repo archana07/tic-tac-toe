@@ -1,0 +1,32 @@
+
+body {
+    background-color: #221c34;
+}
+
+.game-board {
+    width: 440px;
+    margin: 0 auto;
+}
+
+ul.game-layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #15121f;
+}
+
+ul.game-layout > li {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #443c5e;
+    text-align: center;
+    font-size: 5rem;
+    cursor: pointer;
+
+}
